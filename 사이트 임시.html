@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AI Image Gallery</title>
+  <link rel="stylesheet" href="styles.css">
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <!-- 헤더 추가 -->
+    <header class="header">
+      <h1>My Ai Gallery</h1>
+    </header>
+
+    <!-- 가로 광고칸 추가 -->
+    <div class="horizontal-ad">
+      <p>ad</p>
+    </div>
+
+  <!-- 갤러리 이미지 -->
+  <div class="gallery-container">
+    <div class="gallery-image" id="image1">
+      <img src="https://i.imgur.com/YhXnJvj.png" alt="Image 1" />
+    </div>
+
+    <div class="gallery-image" id="image2">
+      <img src="https://i.imgur.com/JRgDAB9.png" alt="Image 2" />
+    </div>
+
+    <div class="gallery-image" id="image3">
+      <img src="https://i.imgur.com/Mvjfqeh.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image4">
+      <img src="https://i.imgur.com/ZjvQaQp.png" alt="Image 1" />
+    </div>
+
+    <div class="gallery-image" id="image5">
+      <img src="https://i.imgur.com/qgMF0KA.png" alt="Image 2" />
+    </div>
+
+    <div class="gallery-image" id="image6">
+      <img src="https://i.imgur.com/TfGSQuT.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image7">
+      <img src="https://i.imgur.com/wqqHa80.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image8">
+      <img src="https://i.imgur.com/571EpmZ.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image9">
+      <img src="https://i.imgur.com/DI4z7wz.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image10">
+      <img src="https://i.imgur.com/p5jJ7Fu.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image11">
+      <img src="https://i.imgur.com/7Zw6QiB.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image12">
+      <img src="https://i.imgur.com/a5kwLDx.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image13">
+      <img src="https://i.imgur.com/LeQjWrY.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image14">
+      <img src="https://i.imgur.com/H2L6DjU.png" alt="Image 3" />
+    </div>
+    
+    <div class="gallery-image" id="image15">
+      <img src="https://i.imgur.com/HocwU8I.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image16">
+      <img src="https://i.imgur.com/8ISOWCi.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image17">
+      <img src="https://i.imgur.com/Tgtq7mD.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image18">
+      <img src="https://i.imgur.com/S520nF0.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image19">
+      <img src="https://i.imgur.com/nglJ2km.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image20">
+      <img src="https://i.imgur.com/cscwfIg.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image21">
+      <img src="https://i.imgur.com/lqTjTaa.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image22">
+      <img src="https://i.imgur.com/nAtxXHR.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image23">
+      <img src="https://i.imgur.com/bxkER6n.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image24">
+      <img src="https://i.imgur.com/YPQgXMz.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image25">
+      <img src="https://i.imgur.com/USDgPLr.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image26">
+      <img src="https://i.imgur.com/JYXaAEX.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image27">
+      <img src="https://i.imgur.com/9WS9u27.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image28">
+      <img src="https://i.imgur.com/0fPA5TO.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image29">
+      <img src="https://i.imgur.com/LinECB7.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image30">
+      <img src="https://i.imgur.com/wsRiSLQ.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image31">
+      <img src="https://i.imgur.com/Gyhn5lR.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image32">
+      <img src="https://i.imgur.com/C6Sznjj.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image33">
+      <img src="https://i.imgur.com/QDceymK.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image34">
+      <img src="https://i.imgur.com/XG8LpNQ.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image35">
+      <img src="https://i.imgur.com/PcJaAUO.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image36">
+      <img src="https://i.imgur.com/RYIhFho.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image37">
+      <img src="https://i.imgur.com/BmuFtHZ.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image38">
+      <img src="https://i.imgur.com/OZoS4op.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image39">
+      <img src="https://i.imgur.com/e59AvgL.png" alt="Image 3" />
+    </div>
+
+    <div class="gallery-image" id="image40">
+      <img src="https://i.imgur.com/LmHaOPM.png" alt="Image 3" />
+    </div>
+
+
+    <!-- 추가 이미지 요소 ... -->
+  </div>
+
+<!-- 가로 광고칸 추가 -->
+<div class="horizontal-ad">
+  <p>Ad</p>
+</div>
+  
+
+
+
+  <!-- 이미지 모달 창 -->
+  <div id="modal" class="modal" onclick="closeModal()">
+    <span class="close-button">&times;</span>
+    <img class="modal-content" id="modalImage">
+  </div>
+</div>
+
+
+
+<!-- 풋터 추가 -->
+
+
+<script src="scripts.js"></script>
+
+<script>
+  // 이미지 로딩이 완료되면 실행
+  imagesLoaded( document.querySelector('.gallery-container'), function() {
+    // 이미지를 포함하는 요소를 사용하여 Masonry 레이아웃 초기화
+    var msnry = new Masonry( '.gallery-container', {
+      itemSelector: '.gallery-image',
+      percentPosition: true
+    });
+  });
+
+// 모달 창
+  var modal = document.createElement('div');
+  modal.className = 'modal';
+  document.body.appendChild(modal);
+
+  // 닫기 버튼 생성
+  var closeBtn = document.createElement('span');
+  closeBtn.className = 'close';
+  closeBtn.innerHTML = '&times;';
+  modal.appendChild(closeBtn);
+
+  // 이미지를 클릭할 때 호출되는 함수
+  function onImageClick(imageId) {
+    var image = document.querySelector('#' + imageId + '> img');
+    var content = document.createElement('img');
+    content.className = 'modal-content';
+    content.src = image.src;
+
+    // 기존 모달 내용 표시 전 삭제
+    var oldContent = modal.querySelector('.modal-content');
+    if (oldContent) {
+      modal.removeChild(oldContent);
+    }
+    modal.appendChild(content);
+
+    // 모달 표시
+    modal.style.display = 'block';
+
+    // 닫기 버튼 클릭시
+    closeBtn.onclick = function () {
+      modal.style.display = 'none';
+    };
+
+    // 모달 외부 클릭시
+    window.onclick = function (event) {
+      if (event.target === modal) {
+        modal.style.display = 'none';
+      }
+    };
+  }
+
+  // 이미지 클릭 이벤트 추가
+  document.querySelectorAll('.gallery-image').forEach(function (image) {
+    image.onclick = function () {
+      onImageClick(this.id);
+    };
+  });
+
+  
+  </script>
+</body>
+</html>
